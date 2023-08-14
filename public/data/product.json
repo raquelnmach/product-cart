@@ -1,0 +1,12 @@
+{
+  "product": [
+      {
+        "id": 111,
+        "code": "025417889",
+        "image": "https://m.media-amazon.com/images/I/61xcd9VrDAL._AC_SX679_.jpg",
+        "title": "Boneca Maria Clara, Baby Brink, Multicor",
+        "description": "A Boneca Maria Clara está vestindo uma bermudinha na cor verde, camisetinha na cor Branca com um coração estampado e um colete na cor rosa com bolinhas brancas estampadas",
+        "price": 99.99
+      }
+  ]
+}

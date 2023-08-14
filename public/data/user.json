@@ -1,0 +1,20 @@
+{
+  "user": [
+    {
+      "id": "123456789",
+      "username": "raquelnmach",
+      "email": "raquelxd@email.com",
+      "name": "Raquel",
+      "date-birthday": "01/14/1989",
+      "address": {
+        "street": "Main Street, 123",
+        "city": "Example City",
+        "state": "Example State",
+        "zip_code": "12345-678"
+      },
+      "phone": "(11) 98765-4321",
+      "last_login": "2023-08-10 15:30:00",
+      "active": true
+    }
+  ]
+}

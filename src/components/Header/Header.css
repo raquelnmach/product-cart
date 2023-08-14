@@ -1,0 +1,110 @@
+.header {
+  background-color: #f5f2f5;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  height: 150px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+.logotipo {
+  width: 150px;
+  height: 120px;
+}
+
+.container-buttons {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-top: 180px;
+  list-style: none;
+  width: 100%;
+  background-color: #ece2ec;
+  }
+  
+  .menu a {
+    display: block;
+    text-decoration: none;
+    padding: 16px;
+    color: #2c2c2c;
+    font-size: 14px;
+  }
+  
+  .menu a:hover {
+    text-decoration: none;
+    color: #fcaae3;
+  }
+
+  .hamburger-menu {
+    position: relative;
+    display: none;
+  }
+  
+  .menu-button {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+ 
+  .bar {
+    width: 100%;
+    height: 3px;
+    background-color: #333;
+    margin: 3px 0;
+  }
+  
+  .menu-links {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: #fff;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu-links a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+  }
+
+@media (max-width: 720px) {
+  .header {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 500px) {
+  .menu {
+    width: auto;  
+  }
+}
+
+@media (max-width: 370px) {
+  .logotipo {
+    width: 100px;
+    height: 70px;
+  }
+}
+
+  

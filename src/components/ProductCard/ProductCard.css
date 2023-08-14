@@ -1,0 +1,126 @@
+.product-card-container {
+  position: relative;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 800px; 
+}
+
+.product-card {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.1);
+  width: 1000px;
+  height: 450px;
+  margin-top: 80px;
+}
+
+.card-image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 350px;
+  padding: 30px;
+}
+
+.card-infos {
+  width: 80%;
+}
+
+.card-title {
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 1.5;
+  font-weight: 600;
+  width: 90%;
+}
+
+.card-product-cod {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.card-price {
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 25px;
+}
+
+.card-description {
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 1.5;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.card-description-text {
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: justify;
+  width: 90%;
+}
+
+.card-info-payment {
+  color: #56ac8f;
+}
+
+.add-cart-button {
+  position: relative;
+  margin-top: 20px;
+  width: 240px;
+  height: 44px;
+  background-color: #0588c5;
+  border: 1px solid #0588c5;
+  cursor: pointer;
+  background-image: linear-gradient(to bottom, #0588c5, #0569a2); /* Gradient vertical de cima para baixo */
+  background-image: -webkit-linear-gradient(top, #0588c5, #0569a2); /* Prefixo para navegadores Webkit (como Chrome e Safari) */
+  background-image: -moz-linear-gradient(top, #0588c5, #0569a2); /* Prefixo para navegadores Mozilla (como Firefox) */
+  background-image: -o-linear-gradient(top, #0588c5, #0569a2); /* Prefixo para navegadores Opera */
+}
+
+.add-cart-button p {
+  margin-left: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #ffffff;
+  z-index: 2;
+}
+
+.add-cart-icon {  
+  font-size: 20px; 
+  color: #ffffff; 
+  position: absolute;
+  top: 50%; 
+  left: 20px; 
+  transform: translateY(-50%); 
+  z-index: 1; 
+}
+
+.favorite-icon {
+  position: absolute;
+  display: flex;
+  top: 0;
+  right: 0;
+  margin: 15px 20px;
+  color: #0588c5;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 1080px) {
+  .product-card {
+    width: 95%; 
+    max-width: 850px;
+    height: auto;
+    flex-direction: column;
+    margin-top: 330px; 
+  }
+}
