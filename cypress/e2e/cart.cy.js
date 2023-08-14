@@ -14,7 +14,7 @@ describe('Functional test of shopping cart', () => {
 
     cy.get('.add-cart-button').click({ force: true });
     cy.get('.cart-status').click();
-    cy.get('.button-remove-item > svg > path').click();
+    cy.get('.button-remove-item').click();
     cy.get('.cart-button').click();
 
     cy.get('.cart-status').should('contain', '0');
